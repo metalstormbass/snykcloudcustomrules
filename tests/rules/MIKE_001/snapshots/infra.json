@@ -1,0 +1,21 @@
+{
+  "deny": {
+    "aws_s3_bucket.invalid": [
+      {
+        "resource": "aws_s3_bucket.invalid"
+      }
+    ]
+  },
+  "resources": {
+    "aws_s3_bucket.invalid": [
+      {
+        "resource": "aws_s3_bucket.invalid"
+      }
+    ],
+    "aws_s3_bucket.valid": [
+      {
+        "resource": "aws_s3_bucket.valid"
+      }
+    ]
+  }
+}
